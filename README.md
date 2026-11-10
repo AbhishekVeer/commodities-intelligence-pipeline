@@ -3,7 +3,7 @@ An automated, AI-driven commodities intelligence pipeline that scrapes unstructu
 
 # 🛢️ AI-Driven Commodities Intelligence Pipeline
 
-**Live Application:** [Insert your deployed Streamlit URL here]
+**Live Application:** https://commodities-intelligence-pipeline-ozbvpuxwnuewnjro3gevqb.streamlit.app/
 
 ## 📌 Project Overview
 This project is an automated agentic workflow designed to bridge the gap between unstructured macroeconomic news and quantitative commodities trading. It systematically scrapes daily market headlines, leverages Large Language Models (LLMs) to extract structured fundamental signals, and backtests those signals against historical WTI crude oil price action. 
