@@ -1,0 +1,9 @@
+streamlit
+langchain
+langchain_openai
+yfinance
+requests
+plotly
+pandas
+numpy
+pydantic
