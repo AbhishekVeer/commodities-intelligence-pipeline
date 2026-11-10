@@ -29,6 +29,32 @@ While a V1 baseline evaluation (T+1, unweighted) yielded a 45.45% hit rate due t
 If you wish to run this pipeline locally rather than utilizing the cloud deployment:
 
 1. Clone the repository:
-   ```bash
+   ```bash  
    git clone [https://github.com/your-username/commodities-intelligence-pipeline.git](https://github.com/your-username/commodities-intelligence-pipeline.git)
    cd commodities-intelligence-pipeline
+
+Install dependencies:
+
+Bash
+pip install -r requirements.txt
+Set your API Keys:
+Create a .streamlit/secrets.toml file in the root directory and add:
+
+Ini, TOML
+OPENAI_API_KEY = "your-openai-key"
+NEWS_API_KEY = "your-newsapi-key"
+Launch the application:
+
+Bash
+streamlit run app.py
+🛠️ Technology Stack
+Language: Python 3.10+
+
+AI/ML: LangChain, OpenAI (gpt-4o-mini), Pydantic
+
+Data & Analytics: Pandas, NumPy, yfinance
+
+Deployment & UI: Streamlit Community Cloud, Plotly
+
+
+
